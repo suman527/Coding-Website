@@ -1,0 +1,68 @@
+.col-md-6{
+    transition: all 0.5s;
+   
+}
+.col-md-6:hover{
+    background-color: rgba(238, 215, 184, 0.562);
+    color: rgb(5, 73, 52);
+    transform:scale(1.1);
+
+}
+.aws{
+    background-color: rgba(173, 224, 243, 0.852);
+    height: 100vh;
+}
+.aws > h1{
+    color: rgb(19, 19, 75);
+    display: flex;
+    width: 500px;
+    padding: 8px;
+    justify-content: center;
+    text-align: center;
+    margin-left:500px;
+    border-radius: 70px;
+    
+}
+    
+
+.aws > h1:hover{
+    color: rgb(67, 2, 17);
+    background-color: rgb(131, 198, 240);
+    
+    
+}
+.aws > p{
+    font-size: 10px;
+    word-spacing: 1.3px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.web{
+    background-color: rgba(173, 224, 243, 0.852);
+    height: 100vh;
+}
+.web > h1{
+    color: rgb(19, 19, 75);
+    display: flex;
+    width: 500px;
+    padding: 8px;
+    justify-content: center;
+    text-align: center;
+    margin-left:500px;
+    border-radius: 70px;
+}
+.web > h1:hover{
+    color: rgb(67, 2, 17);
+    background-color: rgb(131, 198, 240);
+}
+.web > p{
+    font-size: 20px;
+    word-spacing: 1.3px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: rgba(150, 130, 194, 0.863);
+}
